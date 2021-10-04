@@ -1,0 +1,9 @@
+[submodule "one"]
+	path = one
+	url = https://github.com/org-for-tests/one
+[submodule "two"]
+	path = two
+	url = https://github.com/org-for-tests/two
+[submodule "three"]
+	path = three
+	url = https://github.com/org-for-tests/three
