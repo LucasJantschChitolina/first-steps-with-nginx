@@ -1,0 +1,34 @@
+version: "3"
+services:
+  nginx:
+    ports: 
+      - "3000:80"
+  one:    
+    build: 
+      context: ./services/one
+      args:
+        NODE_ENV: production
+    environment:
+      - NODE_ENV=production
+
+    command: yarn run start
+
+  two:
+    build: 
+      context: ./services/two
+      args:
+        NODE_ENV: production
+    environment:
+      - NODE_ENV=production
+      
+    command: yarn run start
+
+  three:
+    build: 
+      context: ./services/three
+      args:
+        NODE_ENV: production
+    environment:
+      - NODE_ENV=production
+      
+    command: yarn run start

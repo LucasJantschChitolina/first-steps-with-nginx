@@ -1,0 +1,14 @@
+{
+  "name": "two",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/org-for-tests/two",
+  "author": "Lucas Chitolina <lucas.chitolina01@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
